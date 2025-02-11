@@ -1,0 +1,48 @@
+body{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+}
+
+.main{
+    background-color: rgb(15, 15, 15);
+    border: 5px solid white;
+    width: 250px;
+   
+}
+
+button{
+    padding: 20px;
+    color: #1a1a1a;
+    background-color: gray;
+    font-size: 19px;
+    margin: 2px;
+    border-radius: 25px;
+    width: 55px;
+    border: solid 1px black;
+    }
+button:hover{
+    background-color: white;
+}
+
+#screen{
+height: 50px;
+margin: 5px;
+border-radius: 2px;
+color: rgb(244, 237, 237);
+font-size: 35px;
+justify-content: end;
+display: flex;
+padding: 5px;
+border: 2px solid rgb(134, 125, 125)
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
